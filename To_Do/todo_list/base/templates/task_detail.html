@@ -1,0 +1,10 @@
+
+{% extends 'main.html' %}
+
+{% block content %}
+
+<h3>Task: {{tasks}} </h3>
+<a href="{% url 'update' tasks.id%}">Update</a>
+
+
+        {% endblock content %}
